@@ -6,5 +6,7 @@ register_converter(HexColorConverter, "color")
 
 
 urlpatterns = [
-    path("<color:bg>/<color:fnt>/", PlaceHolderView.as_view(), name="placeholder")
+    path("", PlaceHolderView.as_view()),
+    path("<color:bg>/", PlaceHolderView.as_view()),
+    path("<color:bg>/<color:fnt>/", PlaceHolderView.as_view()),
 ]

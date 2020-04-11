@@ -8,7 +8,7 @@ with open("README.md") as readme_file:
 install_requires = (["Django>=2.2", "pillow>=6.0.0"],)
 
 setup(
-    name="django-geoip-ext",
+    name="django-placeholder",
     version=placeholder.__version__,
     description="""Django PlaceHolder""",
     long_description=readme,
